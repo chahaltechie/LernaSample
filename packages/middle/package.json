@@ -1,0 +1,19 @@
+{
+  "name": "@rsc/middle",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@rsc/common": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.2",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc"
+  }
+}
